@@ -55,6 +55,10 @@
 - 이것이 컴포넌트에서 react-dom을 import하는 이유
 - react 빌드과정에서 index.html과 자바스크립트가 연결됨 (script태그로)
 
+### JSX
+- html tag의 class는 JSX에서는 className으로 표현
+- 하나의 노드로 묶어야 한다 (<React.Fragment></React.Fragment>, <></> 사용)
+
 ### 앞으로 공부 할 내용
 
 react router
