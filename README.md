@@ -46,6 +46,10 @@
 - Server Rendered website with Node.js -> Next.js
 - Static content-oriented website -> Gatsby
 
+### 컴포넌트 만드는 방법
+- Class Component는 this를 사용하여야하는데, 이것이 어려워서 Function Component에 Hook을 도입하기 시작
+- React Hook은 비교적 최근에 도입되어서 기존의 프로그래밍들은 Class 컴포넌트를 사용한 것이 많아서 클래스 컴포넌트에 대해 알고 있어야함
+
 ### 앞으로 공부 할 내용
 
 react router
