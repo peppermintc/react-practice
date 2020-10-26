@@ -47,17 +47,25 @@
 - Static content-oriented website -> Gatsby
 
 ### 컴포넌트 만드는 방법
+
 - Class Component는 this를 사용하여야하는데, 이것이 어려워서 Function Component에 Hook을 도입하기 시작
 - React Hook은 비교적 최근에 도입되어서 기존의 프로그래밍들은 Class 컴포넌트를 사용한 것이 많아서 클래스 컴포넌트에 대해 알고 있어야함
 
 ### react-dom (ReactDOM)
+
 - 바벨은 리액트 컴포넌트를 브라우저가 이해 할 수 있는 순수 자바스크립트로 변환시킴 -> react-dom은 변환된 순수 자바스크립트를 HTML과 연결 시킴
 - 이것이 컴포넌트에서 react-dom을 import하는 이유
 - react 빌드과정에서 index.html과 자바스크립트가 연결됨 (script태그로)
 
 ### JSX
+
 - html tag의 class는 JSX에서는 className으로 표현
 - 하나의 노드로 묶어야 한다 (<React.Fragment></React.Fragment>, <></> 사용)
+
+### PureComponent
+
+- State나 Props가 변화하지 않으면 업데이트(render함수 실행)가 되지 않도록 shouldComponentUpdate()가 구현되어있는 컴포넌트
+- Shallow Comparison이기 때문에 props로 받은 object의 내용물이 변화된 것은 감지하지 못한다
 
 ### 앞으로 공부 할 내용
 
