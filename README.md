@@ -67,6 +67,9 @@
 - State나 Props가 변화하지 않으면 업데이트(render함수 실행)가 되지 않도록 shouldComponentUpdate()가 구현되어있는 컴포넌트
 - Shallow Comparison이기 때문에 props로 받은 object의 내용물이 변화된 것은 감지하지 못한다
 
+### memo
+- 컴포넌트의 props가 변화할 때만 렌더링
+
 ### 앞으로 공부 할 내용
 
 react router
