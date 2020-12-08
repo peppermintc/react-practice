@@ -68,7 +68,17 @@
 - Shallow Comparison이기 때문에 props로 받은 object의 내용물이 변화된 것은 감지하지 못한다
 
 ### memo
+
 - 컴포넌트의 props가 변화할 때만 렌더링
+
+### CSS Vendor Prefix
+
+-webkit-
+-moz-
+-ms-
+-o-
+브라우저 종류별로 테스트 버전에 해당하는 CSS 속성들을 사용 할 때 적음
+브라우저 테스트가 끝나고 버전이 업데이트되면 더 이상 prefix를 붙이지 않아도 됨
 
 ### 앞으로 공부 할 내용
 
