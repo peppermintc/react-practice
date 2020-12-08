@@ -81,6 +81,15 @@
 - :가상이벤트를 붙이면 특정 이벤트마다 적용 할 스타일을 설정 할 수 있음
 - pseudo-class, 가상 클래스라고 부름
 
+### BEM
+
+- CSS Architecture
+- Block Element Modifier
+- Block: 독립적인 의미를 가진 컴포넌트
+- Element: block의 요소
+- Modifier: block이나 element의 외관 속성을 변화시킴
+- ex) .block\_\_element--modifier
+
 ### 앞으로 공부 할 내용
 
 react router
