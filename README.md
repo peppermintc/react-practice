@@ -90,6 +90,12 @@
 - Modifier: block이나 element의 외관 속성을 변화시킴
 - ex) .block\_\_element--modifier
 
+### CSS Module
+
+- CSS 클래스가 중첩되는 것을 방지 할 수 있음
+- filename.module.css로 css 파일 이름 작성
+- 중복되진 않는 고유한 css 이름들이 만들어짐 (\_src_filename_module\_\_cssclass)
+
 ### 앞으로 공부 할 내용
 
 react router
