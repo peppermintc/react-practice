@@ -96,6 +96,28 @@
 - filename.module.css로 css 파일 이름 작성
 - 중복되진 않는 고유한 css 이름들이 만들어짐 (\_src_filename_module\_\_cssclass)
 
+### postman
+
+- API 테스팅 툴
+
+### shell
+
+- 명령어 처리기
+
+### shell script
+
+- shell을 사용하여 컴퓨터에 시킬 명령을 작성하여 실행
+
+### xhr
+
+- 브라우저와 서버 사이에서 Ajax 요청을 보내, 데이터를 전송하는 객체 형태의 API
+
+### Ajax
+
+- 자바스크립트를 사용한 비동기 통신
+- 서버와 클라이언트 사이에서 XML 데이터를 주고 받는 기술
+- 웹페이지를 다시 불러오지 않고 부분적으로 사용자 인터페이스 갱신 가능
+
 ### 앞으로 공부 할 내용
 
 react router
