@@ -123,6 +123,10 @@
 - em: ephemeral unit을 뜻함 해석하면 임시 유닛, 상위 요소 크기에 비례하는 값을 정함
 - rem: root ephemeral unit, 문서의 최상단 요소 크기에 비례
 
+### box-sizing
+
+- 요소의 너비와 높이를 계산하는 방법을 지정
+
 ### 앞으로 공부 할 내용
 
 react router
