@@ -154,6 +154,8 @@
 
 - misc: 기타 등등
 
+### React Component에 className 속성을 추가하면 props로 전달이 되기 때문에 className을 사용하고 싶다면 div나 다른 태그로 감싸서 class를 적용시킨다
+
 ### 앞으로 공부 할 내용
 
 react router
