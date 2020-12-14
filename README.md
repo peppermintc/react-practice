@@ -131,6 +131,15 @@
 
 - / -> 이것은 웹사이트 루트 폴더의 경로를 가리킨다
 
+### onKeyPress
+
+- 입력 받은 key가 있을 때 발생하는 이벤트 처리
+
+### ref, useRef
+
+- ref: 리액트에서 DOM select를 할 때 사용
+- useRef: 함수형 컴포넌트에서 사용하는 DOM Selector Hook 함수
+
 ### 앞으로 공부 할 내용
 
 react router
