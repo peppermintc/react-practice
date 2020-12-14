@@ -140,10 +140,22 @@
 - ref: 리액트에서 DOM select를 할 때 사용
 - useRef: 함수형 컴포넌트에서 사용하는 DOM Selector Hook 함수
 
+### Design Patter
+
+- MVC, MVVM(안드로이드에서 많이 사용), MVI, MVP 등
+- MVC: View에서는 UI만 작성하고 Service되어지는 Logic은 따로 작성
+
+### export default 에서 default의 차이
+
+- export default로 선언되어진 모듈은 하나의 파일에서 하나의 변수 혹은 클래스만 export 함
+- named export: 한 파일 내에서 여러 변수/클래스 등을 export 할 수 있다
+
+### .gitignore에 있는 misc 무엇인지
+
+- misc: 기타 등등
+
 ### 앞으로 공부 할 내용
 
 react router
-
-PostCSS - 모듈화해서 CSS를 쉽게 작성
 
 Test Code 작성 방법
