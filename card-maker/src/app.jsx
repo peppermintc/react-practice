@@ -1,10 +1,9 @@
-import React from 'react';
-import './app.css';
+import React from "react";
+import "./app.css";
+import Login from "./components/login/login";
 
-function App() {
-  return (
-    <h1>hi</h1>
-  );
+function App({ authService }) {
+  return <Login authService={authService} />;
 }
 
 export default App;
