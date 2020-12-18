@@ -5,9 +5,11 @@ import Card from "../card/card";
 const Preview = ({ cards }) => (
   <section className={styles.preview}>
     <h1 className={styles.title}>Card Preview</h1>
-    {cards.map((card) => (
-      <Card card={card} />
-    ))}
+    <ul className={styles.card}>
+      {cards.map((card) => (
+        <Card card={card} />
+      ))}
+    </ul>
   </section>
 );
 
